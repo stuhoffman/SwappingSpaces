@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		20B2476B1DF7AFD600C59B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2476A1DF7AFD600C59B0C /* AppDelegate.swift */; };
-		20B2476D1DF7AFD600C59B0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2476C1DF7AFD600C59B0C /* ViewController.swift */; };
+		20B2476D1DF7AFD600C59B0C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2476C1DF7AFD600C59B0C /* LoginVC.swift */; };
 		20B247701DF7AFD600C59B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B2476E1DF7AFD600C59B0C /* Main.storyboard */; };
 		20B247721DF7AFD600C59B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B247711DF7AFD600C59B0C /* Assets.xcassets */; };
 		20B247751DF7AFD600C59B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B247731DF7AFD600C59B0C /* LaunchScreen.storyboard */; };
+		20B2477D1DF7B20000C59B0C /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2477C1DF7B20000C59B0C /* MusicListVC.swift */; };
+		20B2477F1DF7B68400C59B0C /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2477E1DF7B68400C59B0C /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20B247671DF7AFD600C59B0C /* SwappingSpaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingSpaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B2476A1DF7AFD600C59B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20B2476C1DF7AFD600C59B0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20B2476C1DF7AFD600C59B0C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		20B2476F1DF7AFD600C59B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20B247711DF7AFD600C59B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20B247741DF7AFD600C59B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20B247761DF7AFD600C59B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B2477C1DF7B20000C59B0C /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		20B2477E1DF7B68400C59B0C /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				20B2476A1DF7AFD600C59B0C /* AppDelegate.swift */,
-				20B2476C1DF7AFD600C59B0C /* ViewController.swift */,
+				20B2476C1DF7AFD600C59B0C /* LoginVC.swift */,
 				20B2476E1DF7AFD600C59B0C /* Main.storyboard */,
 				20B247711DF7AFD600C59B0C /* Assets.xcassets */,
 				20B247731DF7AFD600C59B0C /* LaunchScreen.storyboard */,
 				20B247761DF7AFD600C59B0C /* Info.plist */,
+				20B2477C1DF7B20000C59B0C /* MusicListVC.swift */,
+				20B2477E1DF7B68400C59B0C /* PlaySongVC.swift */,
 			);
 			path = SwappingSpaces;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B2476D1DF7AFD600C59B0C /* ViewController.swift in Sources */,
+				20B2477D1DF7B20000C59B0C /* MusicListVC.swift in Sources */,
+				20B2477F1DF7B68400C59B0C /* PlaySongVC.swift in Sources */,
+				20B2476D1DF7AFD600C59B0C /* LoginVC.swift in Sources */,
 				20B2476B1DF7AFD600C59B0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
